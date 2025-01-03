@@ -99,8 +99,6 @@ In order to get this effect, we need to go to the “Administration” tab, then
 
 After pressing the “Save” button, the changes will be overwritten, and the reader will already restart with the newly assigned IP address. Further possible configuration of the reader via the web server from now on will be possible only after changing the settings of the network card of the computer you are using to the appropriate class of IP address.
 
-![alt text](readme/image-14.png)
-
 We've come to a place where the RFID reader and the PLC are on the same network, but they can't yet exchange any data with each other.
 
 Therefore, we need to enable them to do so by going to the “Services” tab, then “PLC”. In the above tab, select the PLC family, in our case “S7”, and the block date numbers that were assigned automatically at the project configuration stage in Tia Portal. In our case, these were **DB1**, **DB2** and **DB3**. It is very important to assign the right numbers to the right fields because the blocks differ in functionality. The number of blocks depends on the model of the reader we are configuring.
