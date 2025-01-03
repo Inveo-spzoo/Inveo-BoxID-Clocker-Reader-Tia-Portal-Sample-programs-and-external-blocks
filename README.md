@@ -40,9 +40,6 @@ To allow the controller to communicate properly with the RFID reader, find the *
 
 Next, in the tree of our project, we look for the **“External source files”** tab, where we will need to include a data file that will be used for communication between the PLC and the RFID reader. The data block can be downloaded from the Inveo website or from the Box ID reader's built-in web server.
 
-Link to download the file: 
-
-https://github.com/majorBien/Inveo-RFID-Reader---Tia-Portal-Sample-programs-and-external-blocks/tree/master?tab=readme-ov-file
 
 ![alt text](readme/image-6.png)
 
