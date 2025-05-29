@@ -46,7 +46,7 @@ VERSION : 0.1
    VAR_INPUT 
       uid_in : String;
       processValue : UInt;
-      addUser : Bool;
+      addUser : UInt;
    END_VAR
 
    VAR_OUTPUT DB_SPECIFIC
